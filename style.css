@@ -1,0 +1,197 @@
+/* navbar start */
+.navbar-nav a{
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+
+.navbar-light .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+    color:#fff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:#fff;
+}
+
+
+
+/* navbar end */
+
+/* carousel slide start */
+/* .carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+} */
+
+.carousel-caption{
+    bottom: 150px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: merienda;
+}
+
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: poppins;
+}
+
+
+.carousel-caption a{
+    text-transform: uppercase;
+    display: inline-block;
+    color: forestgreen;
+    margin-top: 15px;
+
+}
+
+
+/* carousel slide end */
+
+
+/* online service start*/
+
+.onlineservice h1{
+    text-align: center;
+}
+
+
+.onlineservice{
+    margin-top: 20px;
+}
+.onlineservice .card-img-top{
+    height: 240px !important;
+}
+
+.onlineservice h5,p{
+    text-align: center;
+}
+
+.onlineservice .btn-primary{
+    width: 100%;
+}
+
+@media (min-width: 400px){
+.onlineservice{
+        padding-left: 60px;
+    }
+}
+
+/* online service end*/
+
+/* footer start */
+
+.footer{
+    width: 100%;
+    height: 70px;
+}
+
+.footer{
+    margin-top: 30px;
+}
+.footer ,.p{
+    font-weight: bold;
+}
+
+.footer ,.p{
+    padding-top: 25px;
+}
+
+.list-inline > li{
+    list-style-type: none;
+}
+
+.list-inline > li{
+      margin-top: -13px;
+}
+
+/* mobile screen start */
+
+
+@media (min-width: 400px) {
+.footer{
+       padding: 60px;
+}
+
+@media (min-width: 400px){
+    .footer p{
+        margin-top: -55px;
+    }
+}
+    
+}
+
+@media (min-width: 400px){
+.list-inline > li{
+    margin-right: -30px;
+} 
+
+}
+
+/* mobile screen end */
+
+/* desktop screen start */
+
+@media (min-width:1024px){
+    .footer{
+        padding: 25px;
+    }
+}
+
+@media (min-width:1024px){
+    .footer p{
+        margin-top: -5px;
+    }
+}
+
+@media (min-width:1024px){
+     .list-inline > li{
+         margin-right: 5px;
+     }
+}
+
+/* desktop screen end */
+
+.list-inline > li a i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #d6c6b2;
+    margin-right: 10px;
+    font-size: 22px;
+    color: #d6c6b2;
+    transition: all.3s;
+}
+.list-inline > li{
+    display: inline-block;
+    padding-right: 20px;
+    color:  #e3f2fd;  
+}
+
+
+
+/* footer end */
+
+

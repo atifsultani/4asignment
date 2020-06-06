@@ -1,0 +1,52 @@
+/* navber start */
+.navbar-nav a{
+  font-family: poppins;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;    
+}
+
+.navbar-light .navbar-brand{
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+  color:#fff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color:#fff;
+}
+
+
+/* nabvar end */
+
+
+.contact-form{
+  background:rgba(0, 0, 0, .6);
+  color: white;
+  margin-top: 100px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 3px grey;
+}
+
+body{
+    background:url(images/news_online-education-anyone-compressor.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+hr{
+    background: white;
+}
+
+
+
+
